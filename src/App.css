@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.background {
+  background-color: #192026;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 100px;
+  width: 300px;
+}
+
+.menu li {
+  color: #868686;
+  font-size: 20px;
+  display: inline-block;
+
+  justify-content: start;
+  margin-right: 70px;
+}
+
+.Searchbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  padding-left: 90px;
+}
+
+.Searchbar input {
+  border: 1px white solid;
+  outline: none;
+  background-color: #192026;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.Explore {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  padding-left: 105px;
+  padding-bottom: 30px;
+}
+
+.Watching {
+  color: grey;
+  font-size: 30px;
+  padding-left: 105px;
+  padding-bottom: 30px;
+}
+
+.SpyFamilyBanner {
+  padding-left: 85px;
+  height: 400px;
+  width: 1390px;
+  object-fit: cover;
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+.fade-overlay {
+  position: absolute;
+  top: 39%;
+  left: 7.5%;
+  width: 1250px;
+  height: 372px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  pointer-events: none; /* Allows clicking through the overlay if needed */
+}
+
+.overlay {
+  position: absolute;
+  top: 85%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0
+  ); /* Optional: adds a semi-transparent background */
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  outline-color: black;
+  outline-width: 5px;
+}
+
+.overlay p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 660px;
+  margin-right: 400px;
+  align-items: start;
+  text-align: start;
+  width: 600px;
+  inline-size: 12;
+}
+
+.NewRelease {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  padding-left: 105px;
+  padding-bottom: 30px;
+  max-height: 100%;
+}
+
+.col {
+  max-width: 150px;
+  padding: 0px 15px 0px 15px;
+  margin-left: 50px;
+}
+
+#OnePiece #Titan #Naruto #Soccer #SpyFamily #Captain {
+  max-width: 170px;
+  max-height: 284px !important;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+
+.MovieName {
+  position: relative;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
